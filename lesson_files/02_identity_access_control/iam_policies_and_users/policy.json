@@ -17,8 +17,8 @@
               "s3:ListBucket"
           ],
           "Resource": [
-              "arn:aws:s3:::ac-catpics-XXX",
-              "arn:aws:s3:::ac-dogpics-XXX"
+              "arn:aws:s3:::pr-catpics-333",
+              "arn:aws:s3:::pr-dogpics-333"
           ]
       },
       {
@@ -26,7 +26,7 @@
           "Effect": "Allow",
           "Action": "s3:*Object",
           "Resource": [
-              "arn:aws:s3:::ac-dogpics-XXX/*"
+              "arn:aws:s3:::pr-dogpics-333/*"
           ]
       }
   ]
